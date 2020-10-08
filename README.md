@@ -39,7 +39,7 @@ cd gatsby-amplify-auth
 ```sh
 yarn
 # or
-npm install
+rm -rf .cache && rm -rf node_modules && rm package-lock.json && npm install
 ```
 
 4. Install & configure the AWS Amplify CLI.
@@ -79,4 +79,6 @@ amplify push
 7. Then you can run it by:
 ```sh
 gatsby develop
+#or
+npm start
 ```
