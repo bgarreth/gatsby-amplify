@@ -25,7 +25,7 @@ You can now continuously deploy changes to your frontend or backend and Amplify 
 1. Create the project
 
 ```sh
-gatsby new gatsby-amplify-auth https://github.com/dabit3/gatsby-auth-starter-aws-amplify
+gatsby new gatsby-amplify-auth https://github.com/bgarreth/gatsby-amplify.git
 ```
 
 2. Change into the new directory
